@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+a{
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+.container{
+    background-color: gray;
+    background: url(./pexels-apasaric-618079.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    min-height: 100vh;
+}
+form{
+    height: 100vh;
+    width:35%;
+    flex: 1 1 10px;
+    background-color: #ffffffbf;
+    padding: 25px 30px;
+    box-shadow: 0 0 20px #222;
+    border-top-right-radius: 55px ;
+   
+}
+form h1,h3{
+    font-family: "Moderustic", sans-serif;
+    margin: 10px 0;
+
+}
+form p{
+    font-family: "Moderustic", sans-serif;
+    font-weight: 500;
+    margin: 15px 0;
+}
+input,label{
+    display: block;
+    font-family: "Moderustic", sans-serif;
+    margin: 15px 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+input{
+    width: 100%;
+    padding: 15px 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    border:1px solid #403d3d42;
+}
+input::placeholder{
+    color: gray;
+    font-size: 1rem;
+}
+.agreement p{
+    margin: 30px 0;
+}
+input[type="submit"]{
+    border-radius: 5px;
+    background-color: #1c1cfcc2;
+    color: #ffff;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #1c1cfcf0;
+    transition: 0.3s;
+}
+button{
+    width: 100%;
+    background-color: #80808000;
+    display: block;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin: 30px 0;
+font-family: "Moderustic", sans-serif;
+font-weight: 500;
+font-size: 1rem;
+cursor: pointer;
+    
+}
+button:hover{
+    background-color: #8080803d;
+    transition: 0.3s;
+}
+/* @media(max-width:1400px){
+    form{
+        width: 40%;
+    }
+}
+@media(max-width:1000px) {
+    form {
+        width: 50%;
+    }
+}
+@media(max-width:980px) {
+    form {
+        width: 50%;
+    }
+}
+@media(max-width:800px) {
+    form {
+        width: 60%;
+    }
+} */
